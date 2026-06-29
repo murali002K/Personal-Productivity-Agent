@@ -32,7 +32,3 @@ class EODSummary(Base):
     user_id = Column(Integer)
     summary = Column(String(5000))
 
-# eod_log = EODSummary(
-#     user_id=1,
-#     summary_text=summary_text
-# )

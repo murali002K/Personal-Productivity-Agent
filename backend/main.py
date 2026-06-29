@@ -11,6 +11,10 @@ from backend.schemas import (
 from backend.schemas import *
 from backend.ai.graph import app_graph
 from backend.ai.groq_client import generate_summary
+from backend.database import engine
+from backend.models import Base
+
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
