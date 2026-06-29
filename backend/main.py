@@ -1,15 +1,15 @@
 from datetime import datetime, date
 import os
 from fastapi import FastAPI, HTTPException
-from database import SessionLocal
-from models import Task, DailyLog, EODSummary
-from schemas import (
+from backend.database import SessionLocal
+from backend.models import Task, DailyLog, EODSummary
+from backend.schemas import (
     TaskCreate,
     MorningCheckin,
     EveningCheckin
 )
-from ai.graph import app_graph
-from ai.groq_client import generate_summary
+from backend.ai.graph import app_graph
+from backend.ai.groq_client import generate_summary
 
 app = FastAPI()
 
