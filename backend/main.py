@@ -8,6 +8,7 @@ from backend.schemas import (
     MorningCheckin,
     EveningCheckin
 )
+from backend.schemas import *
 from backend.ai.graph import app_graph
 from backend.ai.groq_client import generate_summary
 
