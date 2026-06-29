@@ -1,8 +1,8 @@
 from typing import TypedDict
 from langgraph.graph import StateGraph, END
 from backend.ai.groq_client import generate_summary
-from database import SessionLocal
-from models import Task
+from backend.database import SessionLocal
+from backend.models import Task
 from datetime import date
 
 # Define state strictly matching graph requirements
