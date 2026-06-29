@@ -1,6 +1,6 @@
 from typing import TypedDict
 from langgraph.graph import StateGraph, END
-from ai.groq_client import generate_summary
+from backend.ai.groq_client import generate_summary
 from database import SessionLocal
 from models import Task
 from datetime import date
