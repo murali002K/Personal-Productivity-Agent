@@ -81,7 +81,7 @@ SQLAlchemy ORM
 - Google Calendar Integration
 - Advanced Weekly Analytics
 - Streak Tracking and Productivity Score
-- Cloud Deployment with PostgreSQL
+- Cloud Deployment on Render using PostgreSQL
 - Real-time Notifications
 - Mobile-friendly UI
 
