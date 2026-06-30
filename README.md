@@ -1,7 +1,7 @@
 # Personal Productivity Agent
 
 ## Overview
-A productivity management system built using FastAPI, Streamlit, SQLite, and SQLAlchemy.
+A Personal Productivity Agent built with FastAPI, Streamlit, PostgreSQL, SQLAlchemy, LangGraph, and Groq LLM. It helps users manage daily tasks and generates AI-powered productivity insights including end-of-day summaries, tomorrow plans, and weekly reviews.
 
 ## Features
 - TASK MANAGEMENT
@@ -69,6 +69,7 @@ streamlit run frontend/app.py
 ![Tomorrow Planner](screenshots/tomorrow_planner.png)
 
 ### Database
+Development: SQLite
 PostgreSQL (Render Cloud)
 SQLAlchemy ORM
 
