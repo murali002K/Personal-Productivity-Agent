@@ -68,6 +68,9 @@ streamlit run frontend/app.py
 ### Tomorrow Planner
 ![Tomorrow Planner](screenshots/tomorrow_planner.png)
 
+### Database
+PostgreSQL (Render Cloud)
+SQLAlchemy ORM
 
 ## Future Improvements
 - User Authentication with JWT Login
